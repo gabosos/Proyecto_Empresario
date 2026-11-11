@@ -74,6 +74,9 @@ const palette = [
   { name: "Blanco", hex: "#FFFFFF" },
 ];
 
+const backendServiceUrl =
+  "https://es.fiverr.com/gabo_tech_hi/build-web-applications-using-python-and-flask-3114?utm_medium=shared&utm_source=copy_link&utm_campaign=base_gig_create_share&utm_term=d0eLv86&view=gig&gig_id=514871533";
+
 function App() {
   const [activeProject, setActiveProject] = useState(null);
 
@@ -156,6 +159,51 @@ function App() {
           <p>Personas reales, y con vida</p>
         </section>
       </footer>
+
+      <section className="service-cta" aria-labelledby="service-cta-title">
+        <div className="cta-orb cta-orb-one" aria-hidden="true" />
+        <div className="cta-orb cta-orb-two" aria-hidden="true" />
+        <div className="cta-content">
+          <p className="cta-kicker">
+            <span className="cta-status-dot" />
+            TU IDEA, LISTA PARA CRECER
+          </p>
+          <h2 id="service-cta-title">
+            ¿Creamos algo <span>increíble?</span>
+          </h2>
+          <p className="cta-description">
+            Backend y aplicaciones web a medida con Python y Flask. Cuéntame tu
+            idea y la hacemos realidad.
+          </p>
+          <a
+            className="service-button"
+            href={backendServiceUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="button-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M5 12h14M13 5l7 7-7 7"
+                  stroke="currentColor"
+                  strokeWidth="1.8"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </span>
+            <span>Hablemos de tu proyecto</span>
+            <span className="button-arrow" aria-hidden="true">↗</span>
+          </a>
+          <p className="cta-note">Servicio disponible en Fiverr <span>·</span> Python + Flask</p>
+        </div>
+        <div className="cta-decoration" aria-hidden="true">
+          <span className="decoration-bracket bracket-open">&lt;</span>
+          <span className="decoration-slash">/</span>
+          <span className="decoration-bracket bracket-close">&gt;</span>
+          <span className="decoration-spark">✳</span>
+        </div>
+      </section>
 
       {activeProject !== null && (
         <div
