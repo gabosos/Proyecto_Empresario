@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="700" viewBox="0 0 1100 700" fill="none">
+  <rect width="1100" height="700" fill="#062D38"/>
+  <rect x="18" y="18" width="1064" height="46" rx="8" fill="#08414C"/>
+  <circle cx="42" cy="41" r="6" fill="#E57A78"/>
+  <circle cx="62" cy="41" r="6" fill="#E6B75F"/>
+  <circle cx="82" cy="41" r="6" fill="#61B69C"/>
+  <text x="118" y="47" fill="#D6E7E8" font-family="Arial, sans-serif" font-size="17">Database Studio</text>
+  <rect x="18" y="82" width="232" height="598" rx="7" fill="#073742"/>
+  <text x="40" y="120" fill="#84B8BC" font-family="Arial, sans-serif" font-size="15" font-weight="700">EXPLORER</text>
+  <path d="m43 157 8 8-8 8" stroke="#53C4C1" stroke-width="2"/>
+  <text x="64" y="170" fill="#DAE8E8" font-family="Arial, sans-serif" font-size="16">project_db</text>
+  <rect x="34" y="190" width="199" height="38" rx="5" fill="#0B6672"/>
+  <circle cx="55" cy="209" r="5" fill="#74D3C7"/>
+  <text x="70" y="215" fill="#F2FFFF" font-family="Arial, sans-serif" font-size="15">customers</text>
+  <circle cx="55" cy="253" r="5" fill="#387B83"/>
+  <text x="70" y="259" fill="#A9C6C9" font-family="Arial, sans-serif" font-size="15">orders</text>
+  <circle cx="55" cy="296" r="5" fill="#387B83"/>
+  <text x="70" y="302" fill="#A9C6C9" font-family="Arial, sans-serif" font-size="15">products</text>
+  <rect x="270" y="82" width="812" height="47" rx="6" fill="#08414C"/>
+  <text x="295" y="111" fill="#92CFCE" font-family="Arial, sans-serif" font-size="15">TABLE</text>
+  <text x="385" y="111" fill="#F1FCFC" font-family="Arial, sans-serif" font-size="15" font-weight="700">customers</text>
+  <rect x="270" y="145" width="812" height="50" fill="#0A5260"/>
+  <text x="292" y="177" fill="#BCE4E3" font-family="Arial, sans-serif" font-size="15" font-weight="700">id</text>
+  <text x="440" y="177" fill="#BCE4E3" font-family="Arial, sans-serif" font-size="15" font-weight="700">name</text>
+  <text x="655" y="177" fill="#BCE4E3" font-family="Arial, sans-serif" font-size="15" font-weight="700">status</text>
+  <text x="835" y="177" fill="#BCE4E3" font-family="Arial, sans-serif" font-size="15" font-weight="700">created_at</text>
+  <path d="M270 195h812M270 250h812M270 305h812M270 360h812M270 415h812M270 470h812" stroke="#15515A"/>
+  <path d="M410 145v325M625 145v325M805 145v325" stroke="#15515A"/>
+  <g fill="#D5E7E8" font-family="Arial, sans-serif" font-size="15">
+    <text x="292" y="230">001</text><text x="440" y="230">Customer A</text><text x="655" y="230">active</text><text x="835" y="230">2026-04-12</text>
+    <text x="292" y="285">002</text><text x="440" y="285">Customer B</text><text x="655" y="285">active</text><text x="835" y="285">2026-05-08</text>
+    <text x="292" y="340">003</text><text x="440" y="340">Customer C</text><text x="655" y="340">pending</text><text x="835" y="340">2026-06-21</text>
+    <text x="292" y="395">004</text><text x="440" y="395">Customer D</text><text x="655" y="395">active</text><text x="835" y="395">2026-07-14</text>
+    <text x="292" y="450">005</text><text x="440" y="450">Customer E</text><text x="655" y="450">active</text><text x="835" y="450">2026-08-02</text>
+  </g>
+  <rect x="270" y="497" width="812" height="183" rx="6" fill="#052A34"/>
+  <text x="294" y="531" fill="#61C6B9" font-family="monospace" font-size="14">-- A clear view of your data</text>
+  <text x="294" y="563" fill="#81B9BE" font-family="monospace" font-size="14">SELECT id, name, status</text>
+  <text x="294" y="590" fill="#81B9BE" font-family="monospace" font-size="14">FROM customers</text>
+  <text x="294" y="617" fill="#81B9BE" font-family="monospace" font-size="14">ORDER BY created_at DESC;</text>
+</svg>
